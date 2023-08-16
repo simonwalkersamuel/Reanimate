@@ -21,12 +21,6 @@ int main(int argc, char** argv) {
         build_path = argv[3];
         example_Discrete_BloodFlow(file_path,file_name,build_path);
     }
-    else {
-        file_path = "/mnt/data2/retinasim/cco/graph/";
-        file_name = "retina_cco.dat";
-        build_path = "/mnt/ml/anaconda_envs/vessel_growth_38/lib/python3.8/site-packages/Reanimate/Build_Data/";
-        example_Discrete_BloodFlow(file_path,file_name,build_path);
-    }
 
     // Finding tumour redundancy
     //tumour_ShortestPath();
