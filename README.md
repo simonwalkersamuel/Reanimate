@@ -1,5 +1,7 @@
 # Reanimate: Microvascular Fluid & Mass Transport Simulator
 
+This is a fork from https://github.com/psweens/Reanimate
+
 Reanimate is a C++ library to simulate fluid and mass transport in microvascular tissue. 
 The main goal of this project is to provide a simple and flexible framework to simulate blood flow, interstitial flow, and tracer or drug delivery in large microvascular networks. 
 These networks are imported as weighted, undirected graphs which represent a network(s) of blood vessels generated either synthetically or by segmenting and skeletonising biomedical images. 
@@ -28,7 +30,7 @@ Other distributions of Linux and Windows should work as well.
 To install Reanimate from source, download zip file on GitHub page or run the following in a terminal:
 
 ```bash
-git clone https://github.com/psweens/Reanimate.git
+git clone git@github.com:simonwalkersamuel/Reanimate.git
 ```
 
 ## Contributing
